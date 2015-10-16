@@ -26,13 +26,15 @@
 
 <button type="button" id="text-change-btn">Click Me!</button>
 
+<script src="http://code.jquery.com/jquery.js"></script>
+
 <script>
 
     // define function that will fire on event
     function changeText(evt) {
         var text = $("#text-to-change");
         text.css("font-size", "25px");
-        text.css("color", "red");
+        text.css("color", "blue");
     }
 
     // attach event handler
